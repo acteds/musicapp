@@ -1,29 +1,11 @@
 # musicapp
+# 依赖
+1. axios
+2. vue
+3. vue-router
+4. vuex
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 功能
+1. 默认进入推荐页面
+2. 所有页面的歌曲均可以点击歌曲名称播放
+3. 收藏页面点击❤即可取消收藏,其他页面点击❤是收藏.
