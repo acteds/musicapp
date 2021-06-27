@@ -1,0 +1,54 @@
+/* 搜索部分 */
+.jd_layout{
+  width: 100%;
+  max-width: 500px;
+  min-width: 320px;
+  height: auto;
+  margin: 0px auto;
+  background-color: #ccc;
+ }
+  
+ /* 轮播图部分 */
+ .jd_banner{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ }
+ .jd_bannerimg{
+  width: 1000%;
+  position: relative;
+ }
+ .jd_bannerimg > li{
+  width: 10%;
+  float: left; 
+ }
+ .jd_bannerimg>li img{
+  width: 100%;
+  /*1.设置为块元素
+  2.可以将文本的字体大小设置为0
+  3.vertical-align:bottom*/
+  display: block;
+ }
+ /* 点标记 */
+ .jd_bannerIndicator{
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+ }
+ .jd_bannerIndicator li{
+  width: 6px;
+  height: 6px;
+  float: left;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  /* opacity: 0.7; */
+  margin: 0 3px;
+  /* cursor: pointer; */
+ }
+ .jd_bannerIndicator li:first-of-type{
+  margin-left: 0px;
+ }
+ .jd_bannerIndicator >li.active{
+  background-color: #fff;
+ }
